@@ -1,27 +1,39 @@
-# MyApp
+# Paint
+This is a Paint web application built using Angular 15 and [Konva](https://github.com/konvajs/konva "Konva")
+## Features
+- Supports the following shapes:
+  - Line
+  - Triangle
+  - Circle
+  - Ellipse
+  - Square
+  - Rectangle
+  - Pen
+  - Text
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+![](screenshots/1.PNG)
 
-## Development server
+------------
+- The color and line width can be changed from here:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![](screenshots/2.PNG)
 
-## Code scaffolding
+------------
+- To fill a shape, click on "Fill" button, then draw the shape
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![](screenshots/3.PNG)
 
-## Build
+------------
+- Any shape can be moved, rotated, and resized. Click on "Select" button, then click on the shape
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![](screenshots/4.PNG)
 
-## Running unit tests
+------------
+- You can copy or delete any shape. First, select the shape, then click on "Copy" or "Delete"
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](screenshots/5.PNG)
 
-## Running end-to-end tests
+------------
+- You can undo or redo any action, and save and load the entire stage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](screenshots/6.PNG)

@@ -29,7 +29,7 @@ export class AppComponent implements AfterViewInit {
     this.stage = new Konva.Stage({
       container: 'container',
       width: window.innerWidth * 0.97,
-      height: window.innerHeight * 0.77,
+      height: window.innerHeight * 0.85 - 60,
     });
     this.initStage();
     this.layer = new Konva.Layer();

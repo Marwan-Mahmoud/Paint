@@ -6,23 +6,21 @@
     grid-template-columns: 1fr 1.5fr 1fr;
     grid-gap: 30px;
     background: linear-gradient(to right, rgb(72, 84, 107), rgb(55, 64, 100), rgb(40, 52, 87), rgb(39, 65, 95), rgb(33, 48, 85));
+    margin-bottom: 18px;
 }
 
 .actions{
-    height: 15vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
 }
 .shapes{
-    height: 15vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     padding: 0px 25px;
 }
 .tools{
-    height: 15vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -31,7 +29,8 @@
 input{
     cursor: pointer;
     margin: 0px 15px;
-    height: 2.25rem;
+    height: 2.25em;
+    font-size: 2.1vh;
     width: auto;
     padding: 0%;
     border: none;
@@ -41,13 +40,14 @@ input{
 button{
     cursor: pointer;
     margin: 0px 15px;
-    font-size: 15px;
+    font-size: 2.1vh;
     padding: 8px;
     background-color: transparent;
     border: none;
     color: white;
     transition: all 0.5s;
     position: relative;
+    height: 2.25em;
 }
 button::before{
     content: '';
@@ -61,7 +61,7 @@ button::before{
     transition: all 0.3s;
 }
 button:hover::before{
-    opacity: 0 ;
+    opacity: 0;
     transform: scale(0.5,0.5);
 }
 button::after{
@@ -98,13 +98,13 @@ button:hover::after{
 
 select{
     cursor: pointer;
+    font-size: 2.1vh;
     background-color: rgba(255,255,255,0.1);
     border: none;
     color: white;
     height: 2.25em;
     margin: 0px 15px;
     text-align: center;
-    font-size: 15px;
 }
 option{
     background-color: #3D546F;
